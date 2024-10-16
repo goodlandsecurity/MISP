@@ -12,7 +12,7 @@ class ComplexTypeTool
         array(
             'from' => '/(\[\.\]|\[dot\]|\(dot\))/',
             'to' => '.',
-            'types' => array('link', 'url', 'ip-dst', 'ip-src', 'domain|ip', 'domain', 'hostname')
+            'types' => array('link', 'url', 'ip-dst', 'ip-src', 'domain|ip', 'domain', 'hostname', 'email', 'email-src', 'email-dst')
         ),
         array(
             'from' => '/\[hxxp:\/\/\]/',
